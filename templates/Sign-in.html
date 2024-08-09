@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="/static/main.css" type="text/css"/>
+</head>
+<body>
+
+    </div>
+
+    <div class="containerForm">
+       
+
+                    <div class="formAside">
+                        <br> <br>   
+                        <a href="http://127.0.0.1:5000/" target="_self" id="#"> HOME </a>
+                        
+                        <p ID="FirstCircle"></p>
+                    
+                        <h1>
+                              <pre> Welcome <br>  Page </pre>
+                        </h1>
+                        <br>
+                        <h1 style="color:#ffff; font-size: 15px;">
+                           <pre> Sign-in to continue <br>  access </pre>
+                        </h1>
+                        <p ID="SecondCircle"></p>
+                        
+                        
+                    </div>
+                <form action="/Sign-in" method="post">  
+                    <br>
+                    <a href="http://127.0.0.1:5000/Register" target="_self" id="#" style="font-family: monospace; font-weight:700; font-size:12px; padding-left:300px; "> Create an Account </a>
+                        <br> <br> <br>
+                        <font family="Elephant" size="5px"><h1><pre>       Sign in</pre></h1></font>
+                        <br>
+                        <Input  type="email" name="Email Address"  id="email" placeholder="Email " required><br><br><br>
+                         <Input type="Password" name="Password" id="password" placeholder="Password" required><br><br>
+                         <a href="" target="_self" id="#"> forgot password? </a><br> <br>
+                         <Input type="Submit"  value=" submit"> <br>
+                           
+                
+                         
+                            <img src="{{
+                                url_for('static',
+                                filename = 'logo2.png')
+                                }}"
+                                alt="image">
+                </form>
+
+              
+
+
+    </div>
+    
+</body>
+</html>

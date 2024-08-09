@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register </title>
+    <link rel="stylesheet" href="/static/mainIII.css" type="text/css">
+
+</head>
+<body>
+
+    </div>
+    <div class="RegisterContainer">
+
+
+                    <div class="RegisterAside">
+                             <br><br>
+                            <a href="http://127.0.0.1:5000/" target="_self" id="#"> HOME </a>
+
+
+
+                            <div class="circles">
+                            </div>
+                            <div class="circles">
+                            </div>
+                            <div class="circles">
+                            </div>
+                            <div class="circles">
+                            </div>
+                            <div class="circles">
+                            </div>
+                            <div class="circles">
+                            </div>
+    
+                            <br>
+                            <img src="{{
+                                url_for('static',
+                                filename = 'logo2.png')
+                                }}"
+                                alt="image">
+                            <br>
+                            <h1>
+                                <pre> WELCOME TO OUR 
+     WEBSITE 
+                                    </pre>
+                            </h1>
+                    </div>
+
+                     <div class="RegisterForm">
+                        <h1>
+                            REGISTRATION FORM
+                        </h1>
+                        <form action="/Register" method="post">
+    
+                                    
+                            
+                                <input type="email" name="emailaddress" id="email" placeholder="Email" required> <br>
+                               
+                                <input type="password" name="Password" id="password" placeholder="Password"  minlength="5" required> <br>
+                                <input type="password" name="Password" id="cpassword" placeholder="Re-Type Password"  minlength="5" required> <br>
+
+                                <input type="text" name="Firstname" id="fname" placeholder="First Name" required>
+                             
+                                <input type="text" name="Lastname" id="lname" placeholder="Last Name" required><br>
+                            
+                                    <br> 
+            
+                                    
+                                    <input type="radio" name="Gender" id="Gender" value="male" required > Male 
+                                    <input type="radio" name="Gender" id="Gender" value="female"  required> Female 
+
+                               
+                            <br>
+                            
+                                 <button type="submit" name="register" id="Send" > Create your account</button>
+
+                                 <br><br>
+                                 <p> Already have an account? <a href="http://127.0.0.1:5000/Sign-in" target="_self" id="#"> SIGN IN </a></p>
+                                 
+
+
+
+                        </form>
+                     </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+background-image: linear-gradient(to top right, whitesmoke, teal);
+}
+.containerNav{
+    height: 7%;
+    width: 100%;
+    background-image: linear-gradient(to left, teal,rgb(5, 66, 66));
+    
+}
+.containerNav > img {
+    height: 100%;
+    float: left;
+}
+    
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav > a {
+    margin-top: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    border: 0px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px whitesmoke inset;
+    
+}
+nav > a:hover{
+    border: px solid white;
+    border-radius: 0px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px whitesmoke ;
+}
+.RegisterContainer{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.RegisterAside{
+    margin-top: 50px;
+    height: 550px;
+    width: 450px;
+    background-image: linear-gradient(to top right,rgb(4, 70, 70),rgb(8, 105, 105));
+    
+}
+.RegisterForm{
+    margin-top: 50px;
+    margin-right: 100px;
+    height: 550px;
+    width: 450px;
+    background-image: linear-gradient(to bottom right, whitesmoke,whitesmoke);
+    border-top: 10px solid rgb(8, 105, 105);
+    border-left: 5px solid whitesmoke;
+    
+}
+.RegisterAside > a{
+    color: whitesmoke;
+    padding-left: 80px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-family: "calibri";
+    font-weight: 700;
+    inherits: none;
+    cursor: pointer;
+}
+.RegisterAside > a:hover{
+    color: rgb(221, 76, 23);
+}
+.circles{
+    float: right;
+    height: 8px;
+    width: 8px;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.RegisterAside > img{
+    height: 200px;
+    height: 200px;
+   margin-top: 100px;
+   margin-left: 50px;
+}
+.RegisterAside > h1{
+    color: whitesmoke;
+    padding-left: 110px;
+    padding-top: 50px;
+
+}
+.RegisterForm > h1 {
+        color:teal;
+        padding-left: 80px;
+        padding-top: 40px;
+        font-family: "gabriola";
+}
+
+input[type="email"] , input[type="password"]{
+    width: 350px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top:25px ;
+    padding-left: 5px;
+    border: 0px solid grey;
+    border-bottom:2px solid grey;
+    background-color: whitesmoke;
+
+}
+
+    
+input[type="text"]{
+    width: 158px;
+    height: 30px;
+    margin-top:25px;
+    padding-left: 5px;  
+    margin-left: 28px; 
+    border: 0px solid grey;
+    border-bottom:2px solid grey;
+    background-color: whitesmoke; 
+    background-color: whitesmoke;
+}
+button{
+    width: 250px;
+    height: 30px;
+    margin-left: 90px;
+    margin-top:40px ;
+    padding-left: 5px;
+    color: whitesmoke;
+    background-color: rgb(9, 51, 51);
+    border: 0px solid ;
+    cursor: pointer;
+}
+button:hover{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px orangered;
+}
+input[type="radio"]{
+    margin-top:10px ;
+    padding-left: 5px;  
+    margin-left: 28px;  
+}
+form > p {
+    color: teal;
+    padding-top: 70px;
+    padding-left: 200px;
+    font-weight: 500;
+}
+ p > a{
+    color: rgb(7, 48, 48);
+    padding-left: 10px;
+    word-spacing: 2px;
+    text-decoration: none;
+    font-family: "calibri";
+    font-weight: 900;
+    cursor: pointer;
+ }
+ a:hover{
+    color: orangered;
+ }
